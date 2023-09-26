@@ -1,13 +1,597 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("../public/backcolor.png");
+  font-size: 1.5rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+
+
+}
+
+#navarea {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+  z-index: +1;
+}
+
+.ularea {
+  width: 40%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+
+.listitem {
+  position: inherit;
+  list-style: none;
+  padding: 0.2rem;
+  height: 2rem;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.listitem:hover {
+  border-bottom: 4px solid white;
+  cursor: pointer;
+  color: cyan;
+}
+
+.content {
+  width: 100%;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+  height: 500px;
+
+
+}
+
+.profileimage {
+  background-image: url("../public/1688565917644-modified.png");
+  background-size: 40%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  animation-name: profile;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  filter: drop-shadow(3px 1px 15px lime);
+
+
+
+
+}
+
+
+@media screen and (max-width: 520px) {
+  .profileimage {
+    background-size: 50%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .eFood {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .eFoodImage {
+    margin-top: 30px;
+
+  }
+  .Projects{
+
+      
+    margin-bottom: 330px;
+
+
+  }
+  
+}
+
+/* @media screen and (max-width: 1140px) {
+  .Footer{
+    margin-top: 310px;
+    
+  }
+} */
+
+
+.typ_div {
+
+  height: 100%;
+
+}
+
+
+
+@keyframes profile {
+
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+
+    transform: translateY(-15px);
+
+  }
+
+}
+
+
+@keyframes nobita {
+
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+
+    transform: translateY(-15px);
+
+  }
+
+}
+
+
+.heading {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Writing animation in HOme page...// */
+
+
+
+
+textarea {
+
+  font-family: Trattatell;
+  resize: none;
+  font-size: 2rem;
+  font-weight: 600;
+  height: 95%;
+  width: 99%;
+  border: none;
+  background: none;
+  outline: none;
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 520px) {
+  textarea {
+
+    font-size: 1.5rem;
+
+  }
+
+
+}
+
+@media screen and (max-width: 720px) {
+  .content {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    width: 100vh;
+
+  }
+
+  .profileimage {
+    background-size: 30%;
+  }
+
+  .heading {
+
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+
+    /* margin-left: 300px; */
+  }
+
+  .listitem {
+    margin: 30px;
+
+
+  }
+
+  .Footer {
+
+    margin-top: 80px;
+
+  }
+
+
+
+
+}
+
+
+
+.Projects {
+
+  margin-top: 80px;
+  height: 800px;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(50%, auto));
+
+}
+
+@media screen and (max-width: 725px) {
+  .Projects {
+
+    width: 100vh;
+
+  }
+  .Footer{
+    width: 100vh;
+    /* border: 3px solid black; */
+  }
+}
+
+
+.nobita {
+  height: 99%;
+  /* border: 3px solid red; */
+  animation-name: nobita;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  margin-left: 40px;
+  background-image: url("../public/nobita.png");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  filter: drop-shadow(15px 20px 10px rgba(0, 0, 0, 0.6));
+}
+
+
+.project {
+  /* border: 2px solid black; */
+  height: 100%;
+}
+
+.GetHome {
+  /* border: 2px solid yellow; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(47%, auto));
+  height: 50%;
+  gap: 10px;
+
+}
+
+.GetImage {
+  background-image: url("../public//bedroom.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 76%;
+
+  border-radius: 50px;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .GetHome {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+    height: 50%;
+    column-gap: 50px;
+
+  }
+
+  .nobita {
+    background-size: 100%;
+    background-position-y: 170px;
+  }
+
+  .Projects {
+    height: 1000px;
+  }
+}
+
+
+
+.GetAbout {
+  color: white;
+}
+
+
+
+.project {
+  /* border: 4px solid black; */
+}
+
+.Getbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin-left: 100%;
+
+}
+
+.btn {
+  background-color: navy;
+  box-shadow: 10px 10px 10px rgba(0px, 0px, 0px, 0.5px);
+  border-radius: 10px;
+  height: 40px;
+  color: white;
+
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  .GetImage {
+    height: 300px;
+  }
+
+  .GetAbout {
+    overflow: auto;
+  }
+
+  @keyframes nobita {
+
+    from {
+      transform: translateY(200px);
+    }
+
+    to {
+
+      transform: translateY(-155px);
+
+    }
+
+  }
+
+
+}
+
+
+
+.btn {
+  width: 50%;
+  font-size: 1.2rem;
+  background: rgb(1, 139, 139);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 6px 4px;
+}
+
+.btn:hover {
+  background: rgb(33, 224, 224);
+  color: black;
+}
+
+
+.eFood {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(47%, auto));
+  height: 50%;
+  gap: 10px;
+
+
+}
+
+.eFoodImage {
+  background-image: url("../public/Efood.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 76%;
+  border-radius: 50px;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .eFood {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+    height: 50%;
+
+    gap: 40px;
+
+  }
+
+}
+
+.eFoodAbout {
+  color: white;
+}
+
+.Footer {
+  margin-top: 170px;
+
+
+}
+
+
+@media screen and (max-width: 1400px) {
+  .eFoodImage {
+    height: 300px;
+
+  }
+
+  .eFoodAbout {
+    overflow: auto;
+  }
+
+
+
+}
+
+
+
+
+.Footer {
+  color: white;
+  background-color: rgb(91, 96, 105);
+  height: 400px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+
+
+}
+
+.item1 {
+  margin-left: 20px;
+
+}
+
+.item1 a {
+  all: unset;
+
+}
+
+
+
+@media screen and (max-width: 980px) {
+  .Footer {
+
+
+    width: 100%;
+
+
+  }
+}
+
+
+
+@media screen and (max-width: 980px) {
+  .Footer {
+
+    margin-top: 280px;
+    width: 1000px;
+
+  }
+
+
+  body {
+    height: auto;
+  }
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+  .Footer {
+
+    margin-top: 480px;
+    /* width: 900px; */
+    width: 100vh;
+
+  }
+
+}
+
+
+
+
+
+
+.item1 {
+
+  position: inherit;
+  padding: 0.2rem;
+  height: 2rem;
+  color: white;
+
+
+}
+
+.item1:hover {
+
+
+
+  cursor: pointer;
+  color: cyan;
+
+}
+
+#main {
+  height: 1300px;
+  border: 4PX solid RED;
+  width: 100%;
+}
+
+
+
+#imagediv {
+
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: cente
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, auto)); */
+
+
+}
+
+#imgg {
+
+
+  height: 650px;
+  width: 500px;
+  /* object-fit: contain; */
+
+
 }
