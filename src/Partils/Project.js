@@ -21,7 +21,7 @@ export default function Project() {
                 this app which is free to use and easy to use.
               </p>
             </div>
-            <div className="btndiv"><button className="btn">GetSource</button></div>
+         <a href="https://github.com/Devendrakr19/GetHomeproj"> <div className="btndiv"><button className="btn">GetSource</button></div></a>
           </div>
 
           <div className="eFood">
