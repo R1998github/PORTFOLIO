@@ -32,7 +32,7 @@ export default function Project() {
 
               </p></div>
 
-            <div className="  "><button className="btn">GetSource</button></div>
+          <a href="https://github.com/RohitAnnie111/eFood"> <div className="  "><button className="btn">GetSource</button></div></a>
 
           </div>
         </div>
