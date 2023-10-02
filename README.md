@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to portfolio This repository showcases my work and projects in the field of web development, with a focus on two significant projects: **eFood** and **GetHome**.
 
-## Available Scripts
 
-In the project directory, you can run:
+##Demo   https://rohitwebfolio.netlify.app
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## eFood
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+eFood is a MERN (MongoDB, Express.js, React, Node.js) stack project designed to simplify food ordering.
+This application allows users to browse a variety items from their menus, and place orders.
+Some key features include:
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies Used
 
-### `npm run build`
+- React
+- Node.js
+- Express.js
+- MongoDB
+- HTML
+- CSS
+- JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started with eFood, please refer to the eFood Project Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## GetHome
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GetHome is another project I've contributed to, focused on helping users find and book suitable rental houses. This project aims to simplify the process of house hunting by providing a user-friendly platform. Some key features include:
 
-### `npm run eject`
+- House listings with detailed information.
+- User profiles for saving favorite listings.
+- Search filters for specific criteria.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- Node.js
+- Express.js
+- MongoDB
+- HTML
+- CSS
+- JavaScript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To explore GetHome further, please visit the GetHome Project Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## About Me
 
-## Learn More
+I'm a passionate web developer with a strong foundation in front-end and back-end technologies. 
+My portfolio showcases my skills and experience, and I'm continually working on new projects to expand my knowledge and expertise.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Link : https://rohitwebfolio.netlify.app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my portfolio!
