@@ -3,7 +3,8 @@
 Welcome to portfolio This repository showcases my work and projects in the field of web development, with a focus on two significant projects: **eFood** and **GetHome**.
 
 
-##Demo   https://rohitwebfolio.netlify.app
+##Demo   https://rohitkafleportfolio.netlify.app/
+
 
 
 ## eFood
@@ -50,6 +51,6 @@ To explore GetHome further, please visit the GetHome Project Repository
 I'm a passionate web developer with a strong foundation in front-end and back-end technologies. 
 My portfolio showcases my skills and experience, and I'm continually working on new projects to expand my knowledge and expertise.
 
-## Link : https://rohitwebfolio.netlify.app
+## Link : https://rohitkafleportfolio.netlify.app/
 
 Thank you for visiting my portfolio!
